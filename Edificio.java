@@ -71,9 +71,7 @@ public abstract class Edificio {
 	
 	// Coste Pintura
 	
-	protected float costePintura() {
-		return (30 * anchura * altura * profundidad);
-	}
+	protected abstract float costePintura();
 	
 	// Abstracto
 	
